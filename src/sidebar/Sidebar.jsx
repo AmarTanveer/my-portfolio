@@ -12,7 +12,7 @@ function Sidebar() {
     <div className="Sidebar">
       <div className="logo" onClick={() => scrollTo("intro")} style={{cursor: "pointer"}}>
       
-        <img src={logo} alt="" style={{width: "65%", objectFit: "cover"}}/>
+        <img src={logo} alt="" style={{width: "60%", objectFit: "cover"}}/>
       </div>
 
       <h3 onClick={() => scrollTo("about")}  style={{cursor: "pointer"}}>About</h3>
