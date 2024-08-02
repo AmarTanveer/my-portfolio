@@ -13,6 +13,10 @@ import { FaArrowRight } from "react-icons/fa6";
 import { BiSolidExit } from "react-icons/bi";
 import { IoMail } from "react-icons/io5";
 import profilepic from "../assets/profile.jpg";
+import auraaipic from "../assets/aura-ai.png";
+import memorygamepic from "../assets/memory-game.png";
+import foodwebsitepic from "../assets/food-website.png";
+import todolistpic from "../assets/todo-list.png";
 
 function Content() {
   const targetRef = useRef(null);
@@ -295,7 +299,7 @@ function Content() {
               <motion.img
                 initial={{ y: 50 }}
                 whileHover={{ scale: 1.1, y: 10 }}
-                src="/src/assets/aura-ai.png"
+                src={auraaipic}
               ></motion.img>
             </div>
             <div className="projectdata">
@@ -352,7 +356,7 @@ function Content() {
               <motion.img
                 initial={{ y: 50 }}
                 whileHover={{ scale: 1.1, y: 10 }}
-                src="/src/assets/memory-game.png"
+                src={memorygamepic}
               ></motion.img>
             </div>
             <div className="projectdata">
@@ -409,7 +413,7 @@ function Content() {
               <motion.img
                 initial={{ y: 50 }}
                 whileHover={{ scale: 1.1, y: 10 }}
-                src="/src/assets/food-website.png"
+                src={foodwebsitepic}
               ></motion.img>
             </div>
             <div className="projectdata">
@@ -467,7 +471,7 @@ function Content() {
               <motion.img
                 initial={{ y: 50 }}
                 whileHover={{ scale: 1.1, y: 10 }}
-                src="/src/assets/todo-list.png"
+                src={todolistpic}
                 style={{ width: "85%" }}
               ></motion.img>
             </div>
@@ -722,7 +726,7 @@ function Content() {
                 gap: 6,
               }}
             >
-              <IoMail style={{fontSize: "28px"}} />
+              <IoMail style={{ fontSize: "28px" }} />
               <h2>amartanveer@gmail.com</h2>
             </div>
           </a>
