@@ -1,0 +1,41 @@
+.Sidebar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 5%;
+  height: 100vh;
+  padding: 20px 0px;
+  background-color: var(--semidark);
+  position: fixed;
+  z-index: 100;
+}
+.Sidebar h3 {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  writing-mode: vertical-rl;
+  color: #858585;
+  font-size: 18px;
+  font-weight: 200;
+  width: 100%;
+  justify-content: center;
+  border-bottom: 1.5px solid var(--dark);
+}
+
+.Sidebar h3:hover {
+  color: var(--white);
+  background-color: var(--dark);
+  border-right: 3px solid var(--blue);
+}
+
+.Sidebar p {
+  align-self: center;
+  background: var(--dark);
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 900;
+  color: rgb(235, 236, 243);
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
