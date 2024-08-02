@@ -4,7 +4,7 @@
   flex-direction: column;
   width: 5%;
   height: 100vh;
-  padding: 20px 0px;
+  padding: 10px 0px;
   background-color: var(--semidark);
   position: fixed;
   z-index: 100;
@@ -28,14 +28,11 @@
   border-right: 3px solid var(--blue);
 }
 
-.Sidebar p {
-  align-self: center;
-  background: var(--dark);
-  font-size: 22px;
-  line-height: 22px;
-  font-weight: 900;
-  color: rgb(235, 236, 243);
-  padding: 12px;
-  border-radius: 8px;
-  margin-bottom: 20px;
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0px;
+  margin: 0px;
+  
 }
