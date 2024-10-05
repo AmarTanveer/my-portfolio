@@ -17,6 +17,8 @@ import auraaipic from "../assets/aura-ai.png";
 import memorygamepic from "../assets/memory-game.png";
 import foodwebsitepic from "../assets/food-website.png";
 import todolistpic from "../assets/todo-list.png";
+import bagsy from "../assets/bagsy.png";
+import gamez from "../assets/gamez.png";
 
 function Content() {
   const targetRef = useRef(null);
@@ -250,6 +252,7 @@ function Content() {
               </h3>
               <div className="toolnames">
                 <span className="chip">JavaScript</span>
+                <span className="chip">TypeScript</span>
                 <span className="chip">HTML</span>
                 <span className="chip">CSS</span>
                 <span className="chip">React</span>
@@ -294,6 +297,122 @@ function Content() {
           </div>
         </div>
         <div className="projectsgridcontainer">
+          <div className="project">
+            <div className="projectimage">
+              <motion.img
+                initial={{ y: 50 }}
+                whileHover={{ scale: 1.1, y: 10 }}
+                src={bagsy}
+              ></motion.img>
+            </div>
+            <div className="projectdata">
+              <div className="projectheading">
+                <MyReveal width={"100%"}>
+                  <div className="projecttitle">
+                    <div>
+                      <h3>Bagsy</h3>
+                    </div>
+                    <div className="projectline" style={{ width: "50%" }}></div>
+                    <div style={{ display: "flex", gap: "5px" }}>
+                      <a
+                        href="https://github.com/AmarTanveer/BAGSY"
+                        style={{ textDecoration: "none" }}
+                        target="_blank"
+                      >
+                        <IoLogoGithub className="projecticon" />
+                      </a>
+                      <a
+                        href="https://bagsy.onrender.com"
+                        style={{ textDecoration: "none" }}
+                        target="_blank"
+                      >
+                        {" "}
+                        <BiSolidExit className="projecticon" />
+                      </a>
+                    </div>
+                  </div>
+                </MyReveal>
+              </div>
+              <div className="projectdescription">
+                <MyReveal>
+                  <h4>JavaScript (EJS) - Node.js - Express - MongoDB</h4>
+                </MyReveal>
+                <MyReveal>
+                  <h3>
+                    Bagsy is a luxury bag e-commerce site. It features admin
+                    product management, cart system for costs and discounts,
+                    secure JWT authentication and bcrypt password
+                    encryption.&nbsp;&nbsp;
+                    <a
+                      href="https://bagsy.onrender.com"
+                      style={{ color: "var(--yellow)" }}
+                      target="_blank"
+                    >
+                      PREVIEW {">"}
+                    </a>
+                  </h3>
+                </MyReveal>
+              </div>
+            </div>
+          </div>
+          <div className="project">
+            <div className="projectimage">
+              <motion.img
+                initial={{ y: 50 }}
+                whileHover={{ scale: 1.1, y: 10 }}
+                src={gamez}
+              ></motion.img>
+            </div>
+            <div className="projectdata">
+              <div className="projectheading">
+                <MyReveal width={"100%"}>
+                  <div className="projecttitle">
+                    <div>
+                      <h3>GameZ</h3>
+                    </div>
+                    <div className="projectline" style={{ width: "50%" }}></div>
+                    <div style={{ display: "flex", gap: "5px" }}>
+                      <a
+                        href="https://github.com/AmarTanveer/game-z"
+                        style={{ textDecoration: "none" }}
+                        target="_blank"
+                      >
+                        <IoLogoGithub className="projecticon" />
+                      </a>
+                      <a
+                        href="https://game-z.vercel.app/"
+                        style={{ textDecoration: "none" }}
+                        target="_blank"
+                      >
+                        {" "}
+                        <BiSolidExit className="projecticon" />
+                      </a>
+                    </div>
+                  </div>
+                </MyReveal>
+              </div>
+              <div className="projectdescription">
+                <MyReveal>
+                  <h4>React - Typescript - Axios - HTML - CSS - RAWG API</h4>
+                </MyReveal>
+                <MyReveal>
+                  <h3>
+                    GameZ is a responsive video game discovery app with
+                    search,genre, and platform filtering. It features dark mode,
+                    optimized images, critic scores, and a dynamic,
+                    user-friendly interface.&nbsp;&nbsp;
+                    <a
+                      href="https://game-z.vercel.app/"
+                      style={{ color: "var(--yellow)" }}
+                      target="_blank"
+                    >
+                      PREVIEW {">"}
+                    </a>
+                  </h3>
+                </MyReveal>
+              </div>
+            </div>
+          </div>
           <div className="project">
             <div className="projectimage">
               <motion.img
