@@ -2,6 +2,11 @@
 
 This is a personal portfolio project built using React and Framer Motion for animations.
 
+## Live link
+
+https://amartanveer.vercel.app/
+
+
 ## Table of Contents
 
 - [Features](#features)
